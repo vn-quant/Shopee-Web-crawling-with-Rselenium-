@@ -138,9 +138,9 @@ data_overal %<>%
 
 data_overal 
 
-file_name <- paste0("data_shopee 1",Sys.Date(),".csv")
+file_name <- paste0("data_shopee ",Sys.Date(),".csv")
 write.csv(data_overal,file_name)
 
 
-remDr$sch
+
 
